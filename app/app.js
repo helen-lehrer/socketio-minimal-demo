@@ -1,4 +1,5 @@
-
+//the io object is now globally available in the browser
+//this points to the url of our server
 const socket = io('ws://localhost:8080');
 
 socket.on('message', text => {
